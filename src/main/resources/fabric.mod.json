@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "growandgather",
+	"version": "${version}",
+	"name": "Cobblemon Grow and Gather",
+	"description": "The new and improved Grow and Gather fakemon pack! Made by JetSetter24",
+	"authors": [
+		"JetSetter24 (that's me!)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/growandgather/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jet.growandgather.CobblemonGrowAndGather"
+		],
+		"fabric-datagen": [
+			"net.jet.growandgather.CobblemonGrowAndGatherDataGenerator"
+		],
+      "client": [
+        "net.jet.growandgather.CobblemonGrowAndGatherClient"
+      ]
+	},
+	"mixins": [
+		"growandgather.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
