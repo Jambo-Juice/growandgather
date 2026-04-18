@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item JETIA_ROCKS =registerItem("jetia_rocks", new Item(new Item.Settings()));
+    public static final Item JETIAN_ROCKS =registerItem("jetian_rocks", new Item(new Item.Settings()));
 
 
 
@@ -22,7 +22,7 @@ public class ModItems {
            CobblemonGrowAndGather.LOGGER.info("Registering Mod Items for " + CobblemonGrowAndGather.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-           entries.add(JETIA_ROCKS);
+           entries.add(JETIAN_ROCKS);
         });
     }
 }
