@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "growandgather:block/chiseled_jetian_stone_bricks"
+  }
+}

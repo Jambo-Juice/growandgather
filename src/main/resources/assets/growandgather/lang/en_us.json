@@ -1,3 +1,13 @@
 {
-  "item.growandgather.jetian_rocks": "Jetian Rocks"
+  "item.growandgather.jetian_rocks": "Jetian Rocks",
+
+  "block.growandgather.jetian_stone": "Jetian Stone",
+  "block.growandgather.jetian_stone_bricks": "Jetian Stone Bricks",
+  "block.growandgather.chiseled_jetian_stone_bricks": "Chiseled Jetian Stone Bricks",
+  "block.growandgather.smooth_jetian_stone": "Smooth Jetian Stone",
+
+  "block.growandgather.mochiwood_planks": "Mochiwood Planks",
+  "block.growandgather.regaliz_planks": "Regaliz Planks",
+  "block.growandgather.zarzamora_planks": "Zarzamora Planks",
+  "block.growandgather.banaan_planks": "Banaan Planks"
 }
