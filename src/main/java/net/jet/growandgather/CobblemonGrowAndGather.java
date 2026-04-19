@@ -3,6 +3,7 @@ package net.jet.growandgather;
 import net.fabricmc.api.ModInitializer;
 
 import net.jet.growandgather.block.ModBlocks;
+import net.jet.growandgather.item.ModItemGroups;
 import net.jet.growandgather.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +16,6 @@ public class CobblemonGrowAndGather implements ModInitializer {
 	public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
 	}
 }

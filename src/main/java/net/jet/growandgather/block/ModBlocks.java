@@ -31,7 +31,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
     public static final Block ZARZAMORA_PLANKS = registerBlock("zarzamora_planks",
             new Block(AbstractBlock.Settings.create().strength(2f).sounds(BlockSoundGroup.WOOD)));
-
+    // General Decor
+    public static final Block VEGGIE_DIRT = registerBlock("veggie_dirt",
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.MUD)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -49,6 +51,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(ModBlocks.JETIAN_STONE);
+            entries.add(ModBlocks.VEGGIE_DIRT);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {

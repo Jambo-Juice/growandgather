@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item JETIAN_ROCKS =registerItem("jetian_rocks", new Item(new Item.Settings()));
+    public static final Item CARVED_UNGULATE =registerItem("carved_ungulate", new Item(new Item.Settings()));
 
 
 
@@ -23,6 +24,10 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
            entries.add(JETIAN_ROCKS);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(CARVED_UNGULATE);
         });
     }
 }
